@@ -172,12 +172,12 @@ def player_array
 end
 
 def big_shoe_rebounds
-  biggest_foot = 0
-  shoe_sizes = []
-  player_array.each do |player|
-    shoe_sizes << player_stats(player)[:shoe]
-  end
-  biggest_foot = shoe_sizes.max
+  #biggest_foot = 0
+  #shoe_sizes = []
+  #player_array.each do |player|
+  #  shoe_sizes << player_stats(player)[:shoe]
+  #end
+  #biggest_foot = shoe_sizes.max
   player_array.each do |player|
     return player_stats(player)[:rebounds] if biggest_foot == player_stats(player)[:shoe]
   end
