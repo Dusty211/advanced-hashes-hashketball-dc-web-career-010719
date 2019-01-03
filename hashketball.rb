@@ -179,7 +179,7 @@ def big_shoe_rebounds
   #end
   #biggest_foot = shoe_sizes.max
   game_hash.each do |key, value|
-    
+    binding.pry
   end
   player_array.each do |player|
     binding.pry
